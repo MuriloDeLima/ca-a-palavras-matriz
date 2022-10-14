@@ -5,41 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet" type="text/css">
-    <title>Caça Palavras</title>
+    <title>Caça Palavras 10 Palavras</title>
 </head>
 <body>
+    <center>
+        <script>
+            matriz = new Array;
+        matriz = [["Q", "H", "R", "S", "F", "J", "U", "G", "F", "J", "L", "X", "U", "L", "P", "B", "I", "T", "D", "E"],
+        ["A", "F", "C", "U", "A", "M", "R", "P", "O", "Ç", "H", "K", "V", "Ç", "I", "N", "I", "R", "G", "A"],
+        ["Ç", "R", "E", "S", "E", "N", "O", "A", "Ç", "D", "S", "T", "A", "D", "X", "J", "B", "L", "K", "V"],
+        ["A", "B", "R", "A", "C", "E", "R", "O", "L", "A", "O", "X", "K", "U", "B", "E", "A", "F", "E", "F"],
+        ["Í", "J", "U", "G", "B", "E", "X", "D", "A", "G", "Z", "O", "P", "E", "M", "D", "N", "I", "C", "I"],
+        ["I", "A", "L", "V", "E", "I", "D", "P", "R", "L", "P", "S", "H", "S", "T", "S", "A", "V", "Q", "G"],
+        ["O", "U", "I", "C", "Z", "N", "G", "E", "A", "X", "F", "D", "E", "O", "Ç", "K", "N", "A", "J", "O"],
+        ["J", "V", "A", "E", "P", "F", "P", "J", "N", "I", "Q", "A", "I", "S", "A", "V", "A", "X", "U", "N"],
+        ["M", "E", "P", "A", "V", "E", "V", "U", "J", "X", "R", "O", "M", "Ã", "I", "N", "P", "B", "A", "D"],
+        ["L", "T", "J", "B", "I", "L", "L", "P", "A", "R", "G", "S", "J", "R", "D", "O", "L", "C", "Ç", "S"],
+        ["Z", "G", "O", "P", "A", "D", "H", "K", "S", "Q", "A", "H", "B", "Q", "V", "A", "H", "A", "P", "J"],
+        ["F", "A", "M", "A", "N", "G", "A", "T", "X", "F", "G", "B", "T", "X", "C", "K", "V", "R", "A", "D"],
+        ["G", "U", "Q", "H", "Ç", "Q", "U", "J", "J", "E", "F", "Ç", "T", "D", "D", "E", "C", "P", "G", "H"],
+        ["C", "J", "V", "S", "C", "K", "V", "X", "A", "S", "A", "P", "U", "C", "A", "I", "A", "Q", "Z", "U"],
+        ["X", "F", "M", "L", "A", "N", "H", "O", "I", "H", "J", "E", "B", "P", "E", "H", "Z", "X", "O", "E"],
+        ["H", "I", "X", "Q", "C", "E", "R", "E", "J", "A", "Q", "G", "O", "V", "L", "C", "J", "P", "H", "Ç"]];
 
-    <div class="text">
-        <center>
-            
-            <h1> Murilo de lima martins</h1>
+        document.write(" <h1> Caça palavras Tema Frutas 1-B </h1> ")
 
-        </center>
-    
-    </div>
-
-    <script>
+        document.write("<br>")
         
-        matriz = new Array
-        matriz = [["<center> <table border='1'  <tr> <td> A </td>","<td> Z </td>","<td> S </td>","<td> R </td>","<td> Q </td>","<td> P </td>","<td> O </td>","<td> N </td>","<td> H </td>","<td> F </td>","<td> A </td>","<td> Z </td>","<td> S </td>","<td> R </td>","<td> Q </td>","<td> I </td>","<td> W </td>","<td> P </td>","<td> K </td>","<td> R </td> </tr> </table>","<center> <table border='1'  <tr> <td> A </td>","<td> Z </td>","<td> S </td>","<td> R </td>","<td> Q </td>","<td> P </td>","<td> O </td>","<td> N </td>","<td> H </td>","<td> F </td>","<td> A </td>","<td> Z </td>","<td> S </td>","<td> R </td>","<td> Q </td>","<td> I </td>","<td> W </td>","<td> P </td>","<td> K </td>","<td> R </td> </tr> </table>","<center> <table border='1'  <tr> <td> A </td>","<td> Z </td>","<td> S </td>","<td> R </td>","<td> Q </td>","<td> P </td>","<td> O </td>","<td> N </td>","<td> H </td>","<td> F </td>","<td> A </td>","<td> Z </td>","<td> S </td>","<td> R </td>","<td> Q </td>","<td> I </td>","<td> W </td>","<td> P </td>","<td> K </td>","<td> R </td> </tr> </table>","<center> <table border='1'  <tr> <td> A </td>","<td> Z </td>","<td> S </td>","<td> R </td>","<td> Q </td>","<td> P </td>","<td> O </td>","<td> N </td>","<td> H </td>","<td> F </td>","<td> A </td>","<td> Z </td>","<td> S </td>","<td> R </td>","<td> Q </td>","<td> I </td>","<td> W </td>","<td> P </td>","<td> K </td>","<td> R </td> </tr> </table>","<center> <table border='1'  <tr> <td> A </td>","<td> Z </td>","<td> S </td>","<td> R </td>","<td> Q </td>","<td> P </td>","<td> O </td>","<td> N </td>","<td> H </td>","<td> F </td>","<td> A </td>","<td> Z </td>","<td> S </td>","<td> R </td>","<td> Q </td>","<td> I </td>","<td> W </td>","<td> P </td>","<td> K </td>","<td> R </td> </tr> </table>","<center> <table border='1'  <tr> <td> A </td>","<td> Z </td>","<td> S </td>","<td> R </td>","<td> Q </td>","<td> P </td>","<td> O </td>","<td> N </td>","<td> H </td>","<td> F </td>","<td> A </td>","<td> Z </td>","<td> S </td>","<td> R </td>","<td> Q </td>","<td> I </td>","<td> W </td>","<td> P </td>","<td> K </td>","<td> R </td> </tr> </table>","<center> <table border='1'  <tr> <td> A </td>","<td> Z </td>","<td> S </td>","<td> R </td>","<td> Q </td>","<td> P </td>","<td> O </td>","<td> N </td>","<td> H </td>","<td> F </td>","<td> A </td>","<td> Z </td>","<td> S </td>","<td> R </td>","<td> Q </td>","<td> I </td>","<td> W </td>","<td> P </td>","<td> K </td>","<td> R </td> </tr> </table>","<center> <table border='1'  <tr> <td> A </td>","<td> Z </td>","<td> S </td>","<td> R </td>","<td> Q </td>","<td> P </td>","<td> O </td>","<td> N </td>","<td> H </td>","<td> F </td>","<td> A </td>","<td> Z </td>","<td> S </td>","<td> R </td>","<td> Q </td>","<td> I </td>","<td> W </td>","<td> P </td>","<td> K </td>","<td> R </td> </tr> </table>","<center> <table border='1'  <tr> <td> A </td>","<td> Z </td>","<td> S </td>","<td> R </td>","<td> Q </td>","<td> P </td>","<td> O </td>","<td> N </td>","<td> H </td>","<td> F </td>","<td> A </td>","<td> Z </td>","<td> S </td>","<td> R </td>","<td> Q </td>","<td> I </td>","<td> W </td>","<td> P </td>","<td> K </td>","<td> R </td> </tr> </table>"]];
+        document.write("<table>");
+        for(vetor = 0; vetor < 16; vetor++){
+            document.write("<tr>");
+            for(elemento = 0; elemento < 20; elemento++){
+                if((vetor == 3) && ((elemento >= 3) && (elemento <= 9))){
+                    document.write("<td class='palavra-cor'>" + matriz[vetor][elemento] + "</td>");
+                }
         
-        for(linha = 0;linha < 180;linha++){
-            for(coluna = 0; coluna < 180; coluna++){
-                document.write(matriz[linha][coluna]);
+                else if((vetor == 8) && ((elemento >= 10) && (elemento <= 13))){
+                    document.write("<td class='palavra-cor'>" + matriz[vetor][elemento] + "</td>");
+                }
+        
+                else if((vetor == 11) && ((elemento >= 2) && (elemento <= 6))){
+                    document.write("<td class='palavra-cor'>" + matriz[vetor][elemento] + "</td>");
+                }
+        
+                else if((elemento == 12) && ((vetor >= 0) && (vetor <= 2))){
+                    document.write("<td class='palavra-cor'>" + matriz[vetor][elemento] + "</td>");
+                }
+        
+                else if((elemento == 8) && ((vetor >= 4) && (vetor <= 9))){
+                    document.write("<td class='palavra-cor'>" + matriz[vetor][elemento] + "</td>");
+                }
+        
+                else if((elemento == 19) && ((vetor >= 3) && (vetor <= 6))){
+                    document.write("<td class='palavra-cor'>" + matriz[vetor][elemento] + "</td>");
+                }
+        
+                else if((vetor == 15) && ((elemento >= 4) && (elemento <= 9))){
+                    document.write("<td class='palavra-cor'>" + matriz[vetor][elemento] + "</td>");
+                }
+        
+                else if((vetor == 13) && ((elemento >= 9) && (elemento <= 16))){
+                    document.write("<td class='palavra-cor'>" + matriz[vetor][elemento] + "</td>");
+                }
+        
+                else if((elemento == 16) && ((vetor >= 2) && (vetor <= 7))){
+                    document.write("<td class='palavra-cor'>" + matriz[vetor][elemento] + "</td>");
+                }
+        
+                else if((elemento == 0) && ((vetor >= 1) && (vetor <= 4))){
+                    document.write("<td class='palavra-cor'>" + matriz[vetor][elemento] + "</td>");
+                }
+        
+                else{
+                    document.write("<td>" + matriz[vetor][elemento] + "</td>");
+                }
             }
-            document.write("<br>");
+            document.write("</tr>");
         }
+        document.write("</table>");
+        </script>
 
+    </center>
 
-
-
-
-
-
-
-
-
-
-    </script>
 </body>
 </html>
